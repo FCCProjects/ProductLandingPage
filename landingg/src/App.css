@@ -1,0 +1,39 @@
+body {
+  background-color:#eee;
+}
+
+.topimage {
+  width: 150px;
+  height: 100px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.no-bullets {
+  list-style-type: none;
+  font-family:'Courier New', Courier, monospace;
+  display: flex;
+  float: right;
+  background-color: red;
+}
+
+
+.my-navbar {
+  float: right;
+}
+
+
